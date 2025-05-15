@@ -43,8 +43,8 @@ class CFG:
 	# -------------------------------------------
     FS = 32000
     N_FFT = 2048
-    HOP_LENGTH = 128
-    N_MELS = 256
+    HOP_LENGTH = 256
+    N_MELS = 128
     FMIN = 20
     FMAX = 16000
     TARGET_DURATION = 5.0
