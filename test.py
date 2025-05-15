@@ -21,9 +21,8 @@ logging.basicConfig(level=logging.ERROR)
 class CFG:
     # Mel Spec
     # -------------------------------------------
-    N_FFT = 1024
-    WIN_LENGTH = 1024
-    HOP_LENGTH = 512
+    N_FFT = 2048
+    HOP_LENGTH = 256
     N_MELS = 128
     FMIN = 20
     FMAX = 16000
