@@ -9,7 +9,7 @@ This repository presents an end-to-end solution for the BirdCLEF2025 Kaggle comp
 - **Backbone**: `tf_efficientnetv2_s.in21k_ft_in1k` (pretrained on ImageNet-21K)
 - **Input Representation**:
   - Audio files (`.ogg`) are converted to **Mel-spectrograms** (256×256 resolution)
-  - Parameters: `N_FFT=1024`, `HOP_LENGTH=512`, `N_MELS=128`
+  - Parameters: `N_FFT=2048`, `HOP_LENGTH=256`, `N_MELS=128`
 - **Feature Extraction**:
   - Adaptive average pooling applied to final features
   - Linear classifier with 206 output units (corresponding to primary bird labels)
